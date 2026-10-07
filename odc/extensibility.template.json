@@ -1,0 +1,9 @@
+{
+  "buildConfigurations": {
+    "capacitor": {
+      "source": {
+        "npm": "git+https://github.com/OWNER/REPOSITORY.git#COMMIT_SHA"
+      }
+    }
+  }
+}

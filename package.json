@@ -1,0 +1,27 @@
+{
+  "name": "ssv-notification-management",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Android-only Capacitor notification inspection and targeted removal; no push registration.",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist/",
+    "android/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=6.0.0 <9.0.0"
+  },
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "license": "MIT"
+}
