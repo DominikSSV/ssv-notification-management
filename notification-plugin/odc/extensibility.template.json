@@ -1,0 +1,9 @@
+{
+  "buildConfigurations": {
+    "capacitor": {
+      "source": {
+        "npm": "https://raw.githubusercontent.com/DominikSSV/ssv-notification-management/COMMIT_SHA/ssv-notification-management-0.2.0.tgz"
+      }
+    }
+  }
+}
